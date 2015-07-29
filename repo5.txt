@@ -1,4 +1,4 @@
-"this is my new change"thhis  view the changes you made relative to the index (staging area for the next commit). In other words, the differences are what you could tell Git to further add to the index but you still haven’t. You can stage these changes by using git-add[1].git diff --no-index [--options] [--] [<path>…]
+delete the first line"this is my new change"thhis  view the changes you made relative to the index (staging area for the next commit). In other words, the differences are what you could tell Git to further add to the index but you still haven’t. You can stage these changes by using git-add[1].git diff --no-index [--options] [--] [<path>…]
 This form is to compare the given two paths on the filesystem. You can omit the --no-index option when running the command in a working tree controlled by Git and at least one of the paths points outside the working tree, or when running the command outside a working tree controlled by Git.
 
 git diff [--options] --cached [<commit>] [--] [<path>…]
